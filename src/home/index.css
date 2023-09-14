@@ -76,91 +76,10 @@ body {
 .ham-burger li a {
     font-family: bold-font;
 }
-
-.change .bar-1 {
-    -webkit-transform: rotate(-45deg) translate(-10px, 5px);
-    transform: rotate(-45deg) translate(-4px, 8px);
-    width: 26px;
-}
-
-.change .bar-2 {
-    opacity: 1;
-    -webkit-transform: rotate(45deg) translate(-10px, 5px);
-    transform: rotate(45deg) translate(1px, 1.5px);
-    width: 26px;
-}
-
-.change .bar-3 {
-    -webkit-transform: rotate(45deg) translate(-10px, 5px);
-    transform: rotate(45deg) translate(-14px, -9.8px);
-    display: none;
-}
-
 /* ------------- First Section ------------- */
-.tag-one, .tag-two, .tag-three, .tag-four
-{
-    background: var(--green-gradient);
-    backdrop-filter: blur(25px);
-    -webkit-backdrop-filter: blur(25px);
-    border: solid 1px var(--green-border-color);
-}
-.tag-one::before, .tag-two::before, .tag-three::before, .tag-four::before
-{
-    content: '';
-    position: absolute;
-    min-width: 12px;
-    min-height: 12px;
-    border: solid 1px var(--hole-color);
-    border-radius: 50px;
-    z-index: 3;
-    background: var(--secondary-background);
-}
-.tag-one::before, .tag-three::before
-{
-    right: -15px;
-}
-.tag-two::before, .tag-four::before
-{
-    left: -15px;
-}
-.tag-one::after, .tag-two::after, .tag-three::after, .tag-four::after
-{
-    content: '';
-    backdrop-filter: blur(25px);
-    position: absolute;
-    min-width: 77px;
-    min-height: 77px;
-    z-index: -1;
-}
-.tag-one::after, .tag-three::after
-{
-    right: -40px;
-    transform: rotateZ(45deg);
-    border-radius: 11px 10px 11px 0px;
-    background: var(--triangle-background);
-    border-right: solid 1px var(--green-border-color);
-    border-top: solid 1px var(--green-border-color);
-}
-.tag-two::after, .tag-four::after
-{
-    left: -37px;
-    transform: rotateZ(-45deg);
-    border-radius: 10px 11px 10px 11px;
-    background: var(--triangle-background-other-side);
-    border-left: solid 1px var(--green-border-color);
-    border-top: solid 1px var(--green-border-color);
-}
 .cost
 {
     font-family: bold-font;
-}
-.gradientino-another
-{
-    box-shadow: 0px 0px 639px 10px var(--gradient-color);
-}
-.gradientino-and
-{
-    box-shadow: 0px 0px 639px 10px var(--gradient-color-and);
 }
 .darken
 {
